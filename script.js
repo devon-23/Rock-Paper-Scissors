@@ -50,13 +50,13 @@ class Game {
         //player1
         switch (this.player) {
             case 'Rock':
-                var srcPic1 = "/rps/pictures/rock.png"
+                var srcPic1 = "/pictures/rock.png"
                 break;
             case 'Paper':
-                var srcPic1 = "/rps/pictures/paper.png"
+                var srcPic1 = "/pictures/paper.png"
                 break;
             case 'Scissors':
-                var srcPic1 = "/rps/pictures/scissors.png"
+                var srcPic1 = "/pictures/scissors.png"
                 break;
             default:
                 break;
@@ -66,13 +66,13 @@ class Game {
         
         switch (this.choices[this.choice]) {
             case 'Rock':
-                var srcPic2 = "/rps/pictures/rock2.png"
+                var srcPic2 = "/pictures/rock2.png"
                 break;
             case 'Paper':
-                var srcPic2 = "/rps/pictures/paper2.png"
+                var srcPic2 = "/pictures/paper2.png"
                 break;
             case 'Scissors':
-                var srcPic2 = "/rps/pictures/scissors2.png"
+                var srcPic2 = "/pictures/scissors2.png"
                 break;
             default:
                 break;
